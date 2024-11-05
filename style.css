@@ -21,17 +21,18 @@ body {
 }
 
 #luckyJetIcon {
-  width: 50px;
-  height: 50px;
+  max-width: 100%;
+  height: auto;
   animation: wiggle 3s linear infinite;
   margin-bottom: 20px;
+  font-size: 7vw; /* Размер текста в процентах от ширины экрана */
 }
 
 #luckyJetIcon.flying,
 #luckyJetIcon.ending {
   border-radius: 2px; 
-  height: 300px;
-  width: 300px;
+  height: auto;
+  max-width: 100%;
 }
 
 #endingText {
