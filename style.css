@@ -9,6 +9,7 @@ body {
   align-items: center;
   min-height: 100vh;
   margin: 0;
+  font-size: 7vw; /* Размер текста в процентах от ширины экрана */
 }
 
 #responseText {
